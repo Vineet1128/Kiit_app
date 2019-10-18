@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".Facilities">
+
+    <TextView
+        android:id="@+id/textfacilities"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:text="Facilities" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textfacilities">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp">
+
+            <ImageView
+                android:id="@+id/faci1"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/campus1"/>
+            <TextView
+                android:id="@+id/facin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Campus"/>
+
+            <TextView
+                android:id="@+id/facit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="A thriving residential World Class Campus providing platform to a community of creative minds"/>
+
+
+            <ImageView
+                android:id="@+id/faci2"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@id/facit1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/hostel"
+                android:layout_marginTop="5sp"/>
+            <TextView
+                android:id="@+id/facin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci2"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Hostel"/>
+
+            <TextView
+                android:id="@+id/facit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="On-campus residential facilities to students, research scholars, faculty members and staff"/>
+
+
+            <ImageView
+                android:id="@+id/faci3"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit2"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/library"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci3"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Library"/>
+
+            <TextView
+                android:id="@+id/facit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin3"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="One of the best libraries in the state of Odisha with modern state-of-the-art digital library facilities"/>
+
+
+            <ImageView
+                android:id="@+id/faci4"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit3"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/classroom"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci4"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Classrooms"/>
+
+            <TextView
+                android:id="@+id/facit4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin4"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Student friendly, smart classrooms to get the most out of your learning experience"/>
+
+
+            <ImageView
+                android:id="@+id/faci5"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit4"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ticket_counter"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci5"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Allied Amenities"/>
+
+            <TextView
+                android:id="@+id/facit5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin5"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Banks, ATMS, Post Office, Computerized Railway Reservation Centre and inhouse air ticketing system"/>
+
+
+            <ImageView
+                android:id="@+id/faci6"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit5"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/gym4"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci6"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Gym/Health Club"/>
+
+            <TextView
+                android:id="@+id/facit6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin6"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Best Gyms and fitness clubs in the city to promote lifestyle wellness"/>
+
+            <ImageView
+                android:id="@+id/faci7"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit6"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/sports"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci7"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Sports"/>
+
+            <TextView
+                android:id="@+id/facit7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin7"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Wide range of sport and recreation activities available on all campuses"/>
+            <ImageView
+                android:id="@+id/faci8"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit7"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/swimming_pool2"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci8"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Swimming Pools"/>
+
+            <TextView
+                android:id="@+id/facit8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin8"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Olympic sized temperature controlled pools for recreation and exercise"/>
+            <ImageView
+                android:id="@+id/faci9"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit8"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cafe3"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci9"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Cafeteria"/>
+
+            <TextView
+                android:id="@+id/facit9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin9"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="25 Food Courts serving national and international cuisines to cater to diversities"/>
+            <ImageView
+                android:id="@+id/faci10"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit9"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/guesthouse5"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci10"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Guest House"/>
+
+            <TextView
+                android:id="@+id/facit10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin10"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="A home away from home for the stay of our guests"/>
+            <ImageView
+                android:id="@+id/faci11"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit10"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/greencampus"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci11"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Green Campus"/>
+
+            <TextView
+                android:id="@+id/facit11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin11"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Most Eco-Friendly vehicle free clean campus with abundant greenery"/>
+            <ImageView
+                android:id="@+id/faci12"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit11"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/transport4"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci12"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Transportation"/>
+
+            <TextView
+                android:id="@+id/facit12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin12"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Well connected campus with an expansive fleet of buses and shuttles"/>
+            <ImageView
+                android:id="@+id/faci13"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit12"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/hospital4"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci13"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Hospital"/>
+
+            <TextView
+                android:id="@+id/facit13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin13"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Round the clock medical attention from Kalinga Institute of Medical Sciences (KIMS), the medical wing of KIIT "/>
+            <ImageView
+                android:id="@+id/faci14"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit13"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/gal"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci14"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Convention Centre"/>
+
+            <TextView
+                android:id="@+id/facit14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin14"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Excellent ambiance for national and international level conferences and seminars"/>
+            <ImageView
+                android:id="@+id/faci15"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/facit14"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ict"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/facin15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faci15"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="ICT"/>
+
+            <TextView
+                android:id="@+id/facit15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facin15"
+                android:paddingBottom="55sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="24/7 IT support available over the phone and on campus"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/faciB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="More about KIIT Facilities" />
+
+</RelativeLayout>

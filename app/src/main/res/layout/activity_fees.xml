@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".Fees">
+
+    <TextView
+        android:id="@+id/fees"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:text="Fees" />
+
+    <ImageView
+        android:id="@+id/feeimg"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_below="@id/fees"
+        android:padding="5sp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fimage" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/feeimg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="5sp">
+
+            <TextView
+                android:id="@+id/feet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:paddingBottom="50sp"
+                android:textAlignment="textStart"
+                android:text="KIIT University offers undergraduate, postgraduate, and doctoral programs in the fields of Engineering, Computer Applications, Medical Sciences, Dental, Law, Management, and Fashion. The fee structure for the major courses is mentioned below:\n
+\n\nThe course fee for B.Tech in KIIT is INR 3,50,000 per annum.
+\n\nThe fee structure for MBA is INR 12,01,600 for two years.
+\n\nMBBS course fee is INR 16,00,000 per annum.\n
+\nKIIT University, Bhubaneswar has been conferred with Tier 1 Accreditation by NBA in 2014. It is a green university which is known for its history in the dissemination of knowledge along with environmentally-friendly infrastructure which includes rainwater harvesting, mass plantation, and eco-friendly transport. As per the official data, the highest pay package that a student from KIIT University has received is Rupees 39 lakhs. Over 4200+ students have received job offers from various companies, so far." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/feeB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="More KIIT Fee Details" />
+
+
+</RelativeLayout>

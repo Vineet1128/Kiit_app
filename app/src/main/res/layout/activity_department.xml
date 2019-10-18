@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".Department">
+
+    <TextView
+        android:id="@+id/textd"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:text="Department" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textd">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp">
+
+            <ImageView
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/soek"/>
+            <TextView
+                android:id="@+id/dn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Science and Engineering"/>
+
+            <TextView
+                android:id="@+id/dt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dn1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="School of Computer Application\nSchool of Civil Engineering\nSchool of Mechanical Engineering\nSchool of Electrical Engineering\nSchool of Chemical Technology \nSchool of Architecture and Planning\nSchool of Computer Engineering\nSchool of Electronics Engineering\nSchool of Biotechnology\nSchool of Applied Sciences\nKIIT Polytechnic\nKalinga Industrial Training Institute"/>
+
+
+            <ImageView
+                android:id="@+id/d2"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@id/dt1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/lk"
+                android:layout_marginTop="5sp"/>
+            <TextView
+                android:id="@+id/dn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d2"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Law and Management"/>
+
+            <TextView
+                android:id="@+id/dt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dn2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="School of Law\nSchool of Leadership\nSchool of Management\nSchool of Rural Management"/>
+
+
+            <ImageView
+                android:id="@+id/d3"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/dt2"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kims"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/dn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d3"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Medicine"/>
+
+            <TextView
+                android:id="@+id/dt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dn3"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Kalinga Institute of Medical Sciences (KIMS)\nKalinga Institute of Dental Sciences (KIDS)\nKalinga Institute of Nursing Sciences (KINS)\nSchool of Public Health"/>
+
+
+            <ImageView
+                android:id="@+id/d4"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/dt3"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ksl"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/dn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d4"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Humanities"/>
+
+            <TextView
+                android:id="@+id/dt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dn4"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="School of Humanities\nSchool Buddhist Studies\nSchool of Language\nSchool of Fine Art"/>
+
+
+            <ImageView
+                android:id="@+id/d5"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/dt4"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fs"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/dn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d5"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Film and Media"/>
+
+            <TextView
+                android:id="@+id/dt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dn5"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="School of Film and Media Sciences\nSchool of Fashion Technology\nchool of Mass Communication"/>
+
+
+            <ImageView
+                android:id="@+id/d6"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@+id/dt5"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ky"
+                android:layout_marginTop="5sp" />
+            <TextView
+                android:id="@+id/dn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d6"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Yoga and Sports"/>
+
+            <TextView
+                android:id="@+id/dt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dn6"
+                android:paddingBottom="55sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="School of Yoga and Spiritualism\nSchool of Sports"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+    android:id="@+id/deptB"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_alignParentBottom="true"
+    android:text="Go to KIIT Departmrntal Website" />
+
+
+
+</RelativeLayout>

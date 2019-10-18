@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".Courses">
+
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:text="Courses" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textc">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp">
+
+            <ImageView
+                android:id="@+id/f1"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ugc"/>
+            <TextView
+                android:id="@+id/fn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/f1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Undergraduate Programs"/>
+
+            <TextView
+                android:id="@+id/ft1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fn1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="B. Tech(4 Years)
+\n\nB.Sc Nursing(4 years)
+\n\nBiotechnology – Dual Degree (B.Tech and M.Tech)(5 years)
+\n\nBA LLB/BBA LLB/B.Sc LLB(5 years)
+\n\nBachelor of Architecture(5 years)
+\n\nBachelor in Film and Television Production(3 years)
+\n\nBachelor of Design(Fashion/Textile)(4 years)
+\n\nBBA(3 Years)
+\n\nBCA(3 Years)\n"/>
+
+
+            <ImageView
+                android:id="@+id/f2"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_below="@id/ft1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pgc"
+                android:layout_marginTop="5sp"/>
+            <TextView
+                android:id="@+id/fn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/f2"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Postgraduate Programs"/>
+
+            <TextView
+                android:id="@+id/ft2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fn2"
+                android:textSize="20sp"
+                android:paddingBottom="50sp"
+                android:textAlignment="center"
+                android:text="\nM. Tech (2 Years)
+\n\nM.C.A. (3 years)
+\n\nMCA (Lateral Entry) (2 years)
+\n\nMaster of Mass Communication (Integrated) (5 Years)
+\n\nM.Sc. (Biotechnology / Applied Microbiology)(2 years)
+\n\nM.Sc. Nursing(2 years)
+\n\nMBA
+\n\nMBA (Rural Management)
+\n\nMBA (Agribusiness Management)
+\n\nLLM (1 year)
+\n\nMaster of Public Health (2Years)
+\n\nMaster of Hospital Administration (2 Years)
+\n\nPh.D"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/coursesB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="Go to KIIT Programs Website" />
+
+
+</RelativeLayout>

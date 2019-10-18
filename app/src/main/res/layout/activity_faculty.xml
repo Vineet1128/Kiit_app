@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".Faculty">
+
+    <TextView
+        android:id="@+id/fac"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:text="Faculty" />
+
+    <ImageView
+        android:id="@+id/fi"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_below="@id/fac"
+        android:padding="5sp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/facultyim" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/ft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:paddingBottom="50sp"
+            android:textAlignment="textStart"
+            android:text="More than 2500 academic and research staff, many leaders in their fields with international reputations provide stimulating learning environment and excellent standards of teaching. Even though it is a self-financing institution, KIIT is a well structured and decentralized organization. It is the only self-financing institution in the country where top functionaries, including Chancellor and Vice Chancellor are renowned academicians. The quality is amply demonstrated by the patents held by various faculty members, the research grants coming from various agencies both in India and abroad, national and international conferences, symposiums and workshops held here and hundred percent placement records." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/facB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="Go to KIIT Faculty Website" />
+
+
+
+</RelativeLayout>

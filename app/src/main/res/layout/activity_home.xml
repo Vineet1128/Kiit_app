@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".home">
+
+    <ImageView
+        android:id="@+id/kiitl"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/kiitlogo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/kiitl">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/sptxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:text=" To create an advanced centre of professional learning of international standing where pursuit of knowledge and excellence shall reign supreme, unfettered by the barriers of nationality, language, cultural plurality and religion. " />
+
+        <Button
+            android:id="@+id/kiitweb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@id/sptxt"
+            android:text="KIIT Website"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_below="@id/kiitweb"
+            android:layout_height="200sp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/dept"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_below="@id/imageView1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/gal"
+            android:layout_marginTop="5sp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_below="@+id/imageView2"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/faculty"
+            android:layout_marginTop="5sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_below="@+id/imageView3"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/courses"
+            android:layout_marginTop="5sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_below="@+id/imageView4"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/fees"
+            android:layout_marginTop="5sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_below="@+id/imageView5"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/facilities"
+            android:layout_marginTop="5sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_below="@+id/imageView6"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/cocu"
+            android:layout_marginTop="5sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Department"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Gallery" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Faculty" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Courses" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView5"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Fees" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Facilities" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:text="Co-curricular Activities" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c7c7"
+    tools:context=".CocurricularActivities">
+
+    <TextView
+        android:id="@+id/cocut"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="Cocurricular Activities" />
+
+    <ImageView
+        android:id="@+id/cocui"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_below="@id/cocut"
+        android:padding="5sp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cocuacti" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cocui">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="5sp">
+
+            <TextView
+                android:id="@+id/feet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:paddingBottom="65sp"
+                android:textAlignment="textStart"
+                android:text="\nKIIT Student Activity Centre aims to bring all the students of the University under one roof with the objective of establishing a common ground for extracurricular activities as well as providing a platform for sharing of talent, culture and innovative ideas. KIIT University takes pride in celebrating creative attributes of human mind. It not only believes in imparting quality technical education, but also catalyzes an all round development of the student community through the various societies. These societies provide a Utopian platform to the students and ensure that the tremendous talent and potential embedded in today’s youth are explored to the fullest extent and are put to use for the betterment of the entire society. Be it oratory skills or quizzing, music or arts, KIIT provides full scope to its students to explore the unexplored horizons and reach great heights.\n
+\nStudents Societies:
+\n\nMODEL UN SOCIETY
+\n\nENTREPRENEURSHIP CELL
+\n\nQUTOPIA - THE QUIZZING SOCIETY
+\n\nKORUS - THE MUSIC and DANCE SOCIETY
+\n\nKIIT AUTOMOBILE SOCIETY
+\n\nAPOGEIO – THE AERONAUTICAL SOCIETY
+\n\nKIIT ROBOTICS SOCIETY (KRS)
+\n\nKEURIG - THE COOKING SOCIETY
+\n\nKREATIVE EYE - THE PHOTOGRAPHY and PAINTING SOCIETY
+\n\nKARMA - SOCIETY FOR DIFFERENTLY ABLED
+\n\nKARTAVYA - SOCIAL RESPONSIBILITY CELL
+\n\nKAMAKSHI – THE WOMEN'S SOCIETY
+\n\nKHETSHAN - INTERNATIONAL STUDENTS SOCIETY
+\n\nKHWAHISHEIN - THE HINDI SOCIETY
+\n\nFILM SOCIETY
+\n\nKALAKAAR - THE DRAMATICS SOCIETY
+\n\nKONNEXIONS – SOCIETY FOR WEB DEVELOPMENT and IT
+\n\nK-KONNECT - SOCIETY FOR ALUMNI CONNECT
+\n\nKIIT WORDSMITH - THE WRITING SOCIETY
+\n\nKZARSHION - FASHION SOCIETY
+\n\nKRAYA - MARKETING SOCIETY
+\n\nKUBER - FINANCE SOCIETY
+\n\nKIMAYA - MEDICAL SOCIETY
+\n\nSCIENCE and SPIRITUAL SOCIETY
+\n\nSOCIETY FOR CIVIL ENGINEERING
+\n\nNCC
+\n\nNSS" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/cocuB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="More about KIIT COcurricular Activities" />
+
+</RelativeLayout>
